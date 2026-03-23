@@ -1,6 +1,9 @@
 ---
-title: Welcome to Quartz
+title: Misuki's CP blog
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Just some blogs about competitive programming.
+
+## Some links:
+
+[CP-template](https://misuki743.github.io/competitive-programming-templates/)
