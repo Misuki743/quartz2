@@ -14,7 +14,10 @@ AtCoder: [Misuki](https://atcoder.jp/users/Misuki)
 
 my template: [CP-template](https://misuki743.github.io/competitive-programming-templates/)
 
-## A few article about problem solving, recommend to anyone want to improve in CP
+## recommend reads
+
+If anyone ask me how to improve, I would recommend reading these.
 
 [Math contest platitudes, v3 - by Evan Chen](https://blog.evanchen.cc/2019/01/31/math-contest-platitudes-v3/)
+
 [On Reading Solutions - by Evan Chen](https://blog.evanchen.cc/2017/03/06/on-reading-solutions/)
