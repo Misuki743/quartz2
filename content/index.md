@@ -4,7 +4,7 @@ title: Misuki's CP blog
 
 ### もっと上の風景が見れるといいな〜
 
-## Some links:
+## some links
 
 Twitter: [@Misuki998](https://x.com/Misuki998)
 
