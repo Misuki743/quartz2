@@ -22,7 +22,7 @@ Since there are about $$\frac{2^{60}}{\log(2^{60})}$$ primes in $$[2^{60}, 2^{61
 
 And thus the probability that all of the queries does not fail is $$(1 - 10^{-13})^Q = \sum\limits_{i = 0}^Q \binom{Q}{i}(-10^{-13})^i \approx \binom{Q}{0} - \binom{Q}{1} \times 10^{-13} \approx 1 - 10^{-8}$$, so the fail probability is $$10^{-8}$$ per test case, which should be small enough.
 
-In general, the fail probability is $$\frac{\log(U-D)\log_D(X)}{U-D} \times Q$$ for small enough $$\frac{\log(U-D)\log_D(X)}{U-D}$$, where $$P$$ is randomly pick from $$[D, U]$$ and $$Q$$ is the total comparison made.
+In general, the fail probability is $$\frac{\log(U-D)\log_D(X)}{U-D} \times Q$$ (assume $$\frac{\log(U-D)\log_D(X)}{U-D} \ll Q$$), where $$P$$ is a prime randomly pick from $$[D, U]$$ and $$Q$$ is the total comparison made.
 
 ### side note
 
