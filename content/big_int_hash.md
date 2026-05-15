@@ -39,4 +39,7 @@ which made $$O(N^2)$$ comparison implicitly, and $$Q = N^2$$ should be used in s
 
 [ARC216C - Count Power of 2](https://atcoder.jp/contests/arc216/tasks/arc216_c)
 
+[The 2nd Universal Cup. Stage 20: Ōokayama pM - Sum is Integer](https://qoj.ac/contest/1499/problem/8177)
+
 [The 3rd Universal Cup. Stage 7: Warsaw pF - Fibonacci Fusion](https://qoj.ac/contest/1774/problem/9225)
+
