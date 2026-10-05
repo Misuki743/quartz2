@@ -23,5 +23,5 @@ Proof: Consider induction on length of array.
 
 Assume $i$-th element and $j$-th element touch each other ($i < j, j - i > 1$), that is, $A_i + B_i > A_j - B_j$ holds.
 
-1. If $j - i = 2$, $(i + 1)$-th element is bad and can be found by the relation between $(i, i + 1)$ and $(i + 1, j)$.
+1. If $j - i = 2$, At least one of $i, (i + 1), (i + 2)$ is bad and can be found by checking $(i, i + 1), (i + 1, i + 2)$.
 2. If $j - i > 2$, consider $(i + 1)$-th element. If $(i + 1)$-th element and $j$-th element doesn't touch each other, it would be completely covered by $i$-th element so checking relation between $(i, i + 1)$ is enough. Otherwise $(i + 1)$-th element and $j$-th element touch each other and thus the claim hold by the induction hypothesis.
