@@ -17,11 +17,6 @@ decide the answer after each point update on $B$.
 
 The constraint feels very "local", is it sufficient to only check relation between adjacent terms?
 
-Claim: If there exist non-adjacent pair touch each other, then there exist some bad element caused by only adjacent pairs.
+If one of the element strictly cover a adjacent element, we are done.
 
-Proof: Consider induction on length of array.
-
-Assume $i$-th element and $j$-th element touch each other ($i < j, j - i > 1$), that is, $A_i + B_i > A_j - B_j$ holds.
-
-1. If $j - i = 2$, At least one of $i, (i + 1), (i + 2)$ is bad and can be found by checking $(i, i + 1), (i + 1, i + 2)$.
-2. If $j - i > 2$, consider $(i + 1)$-th element. If $(i + 1)$-th element and $j$-th element doesn't touch each other, it would be completely covered by $i$-th element so checking relation between $(i, i + 1)$ is enough. Otherwise $(i + 1)$-th element and $j$-th element touch each other and thus the claim hold by the induction hypothesis.
+Otherwise both $\{A_i - B_i\}_{i = 1}^N$ and $\{A_i + B_i\}_{i = 1}^N$ would be non-decreasing. So $i$-th element cover left end of $j$-th element imply $(j - 1)$-th element also cover left end of $j$-th element.
