@@ -32,3 +32,5 @@ The constraint feels very "local", is it sufficient to only check relation betwe
 >   2. $l_k > l_{k - 1}$, so its left end is covered by $(k - 1)$-th element.
 >
 >   Thus $k$-th element is bad and can be found by only adjacent relations, and the claim hold.
+>
+>   Note. We want to prove it's sufficient to only check adjacent relations, so the problem should be asked is "what would happen if a bad element can only be found by non-adjacent relation."
