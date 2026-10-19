@@ -12,3 +12,9 @@ Just some reflection on problems
 
 > [!ucup1-16B]- ucup1-16B Classical Counting Problem
 > ![[problems/ucup1-16B]]
+
+> [!ucup2-21K]- ucup2-21K King's Dinner
+> ![[problems/ucup2-21K]]
+
+> [!ucup2-21A]- ucup2-21A Anton's ABCD
+> ![[problems/ucup2-21A]]
