@@ -18,3 +18,6 @@ Just some reflection on problems
 
 > [!ucup2-21A]- ucup2-21A Anton's ABCD
 > ![[problems/ucup2-21A]]
+
+> [!ucup2-8I]- ucup2-8I Barkley II
+> ![[problems/ucup2-8I]]
