@@ -10,9 +10,6 @@ Just some reflection on problems
 > [!ARC231C]- ARC231C One Sky, Many Stars
 > ![[problems/ARC231C]]
 
-> [!ucup1-16B]- ucup1-16B Classical Counting Problem
-> ![[problems/ucup1-16B]]
-
 > [!ucup2-21K]- ucup2-21K King's Dinner
 > ![[problems/ucup2-21K]]
 
@@ -21,3 +18,6 @@ Just some reflection on problems
 
 > [!ucup2-8I]- ucup2-8I Barkley II
 > ![[problems/ucup2-8I]]
+
+> [!ARC233C]- ARC233C Equal Degree Deletion
+> ![[problems/ARC233C]]
