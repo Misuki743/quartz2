@@ -21,3 +21,6 @@ Just some reflection on problems
 
 > [!ARC233C]- ARC233C Equal Degree Deletion
 > ![[problems/ARC233C]]
+
+> [!ucup2-25L]- ucup2-25L Rooted Tree
+> ![[problems/ucup2-25L]]
