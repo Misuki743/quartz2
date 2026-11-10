@@ -14,14 +14,14 @@ $$\mathbb{E}[D_i \mid T_{i-1}] = \frac{\sum_{v \in L(T_{i - 1})} d(v)}{|L(T_{i-1
 
 where $L(T)$ denote the set of leaves of tree $T$. Then by the property of conditional expectation, we have
 
-$$\mathbb{E}[D_i] = \mathbb{E}[\mathbb{E}[D_i \mid T_{i - 1}]] = \frac{\mathbb{E}[\sum\limits_{v \in L(T_{i - 1})} d(v)]}{1 + (i - 1)(M - 1)} + 1$$
+$$\mathbb{E}[D_i] = \mathbb{E}[\mathbb{E}[D_i \mid T_{i - 1}]] = \frac{\mathbb{E}[\sum_{v \in L(T_{i - 1})} d(v)]}{1 + (i - 1)(M - 1)} + 1$$
 
 So the problem reduced to finding expected sum of depth of leaves at $i$-th step.
-For convenient, let $\mathbb{E}[LD_i]$ denote $\mathbb{E}[\sum\limits_{v \in L(T_i)} d(v)]$.
+For convenient, let $\mathbb{E}[LD_i]$ denote $\mathbb{E}[\sum_{v \in L(T_i)} d(v)]$.
 
 Again, fix a tree $T_{i-1}$, we have
 
-$$\mathbb{E}[LD_i | T_{i - 1}] = \sum\limits_{v \in L(T_{i - 1})}d(v) + \frac{\sum\limits_{v \in L(T_{i - 1})} (M - 1)d(v)}{1 + (i - 1)(M - 1)} + M = \frac{1 + i(M - 1)}{1 + (i - 1)(M - 1)}\mathbb{E}[LD_{i - 1} | T_{i - 1}] + M$$
+$$\mathbb{E}[LD_i | T_{i - 1}] = \sum_{v \in L(T_{i - 1})}d(v) + \frac{\sum_{v \in L(T_{i - 1})} (M - 1)d(v)}{1 + (i - 1)(M - 1)} + M = \frac{1 + i(M - 1)}{1 + (i - 1)(M - 1)}\mathbb{E}[LD_{i - 1} | T_{i - 1}] + M$$
 
 $$\mathbb{E}[LD_i] = \mathbb{E}[\mathbb{E}[LD_i | T_{i - 1}]] = \frac{1 + i(M - 1)}{1 + (i - 1)(M - 1)}\mathbb{E}[LD_{i - 1}] + M$$
 
