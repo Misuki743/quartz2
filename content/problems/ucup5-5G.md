@@ -1,4 +1,4 @@
-**Problem.** Given $n\times n$ matrix $a$ with non-negative integers, except $a_{i, i} = a_{1, j} = a_{i, 1} = -1$, construct a $n$-vertex graph $G$ such that $a_{i, j} \neq -1 \Rightarrow |E(G[V - \{x, y\}])| = a_{i, j}$, or report it is impossible.
+**Problem.** Given $n\times n$ matrix $a$ with non-negative integers, except $a_{i, i} = a_{1, j} = a_{i, 1} = -1$, construct a $n$-vertex graph $G$ such that $a_{i, j} \neq -1 \Rightarrow |E(G[V - \{i, j\}])| = a_{i, j}$, the solution is guranteed to exist.
 
 **Solution.**
 
