@@ -1,0 +1,3 @@
+**Problem.** Given $k$ pairs of integers $(a_i, b_i)$ between $1$ and $m$, count the number of pair of multiset $(\mathbb{C}, \mathbb{M}), \mathbb{C} \in \left(\!\binom{m}{n_1}\!\right), \mathbb{M} \in \left(\!\binom{m}{n_2}\right)$ such that $(a_i \in \mathbb{M} \land b_i \in \mathbb{C}) \lor (a_i \in \mathbb{C} \land b_i \in \mathbb{M})$ holds for all $i$. ($m \le 20, n_1, n_2 \le 10^9$)
+
+Note. Was stuck on trying to enumerate the set of element used in $\mathbb{M}$ directly, but then found out the symmetry of constraints is not used, which suggest analysis on the number of occurence of elements.
